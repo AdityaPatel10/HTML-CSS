@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hover</title>
+    <style>
+      button:first-child {
+        padding: 20px 30px; /*top-bottom left right*/
+        background-color: aqua;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+      }
+      button:nth-child(2) {
+        padding: 10px 20px; /*top-bottom left right*/
+        background-color: teal;
+        border: none;
+        border-radius: 5%;
+        margin-top: 40px;
+      }
+      button:first-child:hover {
+        background-color: red;
+        color: white;
+        padding: 30px 40px;
+      }
+      button:nth-child(2):hover {
+        background-color: yellow;
+      }
+      h1:hover {
+        background-color: blue;
+        color: rgb(209, 79, 181);
+      }
+    </style>
+  </head>
+  <body>
+    <button>Button</button>
+    <button>Login</button>
+    <h1>heading</h1>
+  </body>
+</html>
