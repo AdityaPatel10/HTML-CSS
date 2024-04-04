@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+      }
+      div:nth-child(1) {
+        background-color: red;
+        position: absolute; /*This will make the posiion absolute box 2 will take the place of box 1 and box 1 will hide box 2 */
+        top: 100px;
+        left: 50px;
+      }
+      div:nth-child(2) {
+        background-color: violet;
+        position: relative; /* Order of the boxes will not change as it changes in the "absolute" */
+        top: 80px;
+        left: 100px;
+      }
+      div:nth-child(3) {
+        background-color: blue;
+      }
+      div:nth-child(4) {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </body>
+</html>

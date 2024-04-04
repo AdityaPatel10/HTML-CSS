@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units</title>
+    <style>
+      .parent {
+        height: 50vh; /* vh-> viewport height of the browser not parent*/
+        width: 50vw; /* vw-> viewport width*/
+        background-color: red;
+        margin: auto;
+        font-size: 50px;
+      }
+      .child {
+        height: 30vh;
+        width: 10vw;
+        background-color: yellow;
+        font-size: 1em; /*1em-> 100% font size of parent size*/
+        font-size: 1rem;  /*1rem -> 100% of body font size*/
+      }
+    </style>
+  </head>
+  <body>
+    I am Aditya Patel /*Default font size is 16px*/
+    <div class="parent">
+      <div class="child">1</div>
+    </div>
+    <div class="child">2</div>
+  </body>
+</html>
