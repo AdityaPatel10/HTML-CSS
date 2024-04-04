@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+.main {
+  background-image: url(Assets/images/bg.jpg);
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+.box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+.main>nav{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background-color: black;
+    justify-content: space-between;
+}
+.logo{
+    width: 9vw;
+    margin-top: 20px;
+}
+.nav-button{
+    display: flex;
+    margin-top: 20px;
+    gap: 7px;
+}
+.nav-lang{
+    display: flex;
+}
+.nav-lang button{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+.nav-lang select{
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.signin{
+    height: 100%;
+    width: 50%;
+}

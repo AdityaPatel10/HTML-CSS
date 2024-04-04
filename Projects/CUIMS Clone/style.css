@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.logo{
+    background-image: url(assets/img/cuimslogo.png);
+    background-size: cover;
+    height: 113px;
+    width: 210px;
+    margin: auto;
+    margin-top: 100px;
+    }
+.box-1{
+    background-color: #ef0000;
+    width: 100%;
+    height: 700px;
+    position: relative ;
+}
+.box-1::before{
+    content: "";
+    background-color: #FFFFFF;
+    height: 237px;
+    width: 100%;
+    position: absolute;
+}
+.box-2{
+    background: transparent;
+    width: 85%;
+    height: 200px;
+    position: absolute;
+    top: 32px;
+    left: 7.5%;
+    display: flex;
+}
+.back{
+    height: 350px;
+    width: 22.5%;
+    background-color: #ffffff;
+    border-radius: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.all{
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+}
+.a{
+    background-image: url(assets/img/studentLogin-icon.png);
+}
+.b{
+    background-image: url(assets/img/cuverse-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 150px;
+}
+
+.c{
+    background-image: url(assets/img/staffLogin-icon.png);
+}
+.d{
+    background-image: url(assets/img/admissionLogin-icon.png);
+}
+.all>.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 60px;
+}
+.all>h3{
+    font: 20px roboto, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.all .para{
+    font: 14px roboto, sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.all>button{
+    background-color: #ef0000;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 17px;
+    font: 14px roboto, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
