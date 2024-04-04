@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Line Based Placement</title>
+    <style>
+      #container {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(2, 100px);
+        gap: 30px 20px;
+        grid-template-areas:
+          "pnk  blu yllw"
+          "orng . grn";
+      }
+      #container > div {
+        display: grid;
+        border: 5px solid black;
+      }
+      #container > div:nth-child(1) {
+        background-color: blue;
+        grid-area: blu;
+      }
+      #container > div:nth-child(2) {
+        background-color: green;
+        grid-area: grn;
+      }
+      #container > div:nth-child(3) {
+        background-color: yellow;
+        grid-area: yllw;
+      }
+      #container > div:nth-child(4) {
+        background-color: orangered;
+        grid-area: orng;
+      }
+      #container > div:nth-child(5) {
+        background-color: brown;
+        grid-area: brn;
+      }
+      #container > div:nth-child(6) {
+        background-color: pink;
+        grid-area: pnk;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
