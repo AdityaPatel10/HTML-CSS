@@ -1,0 +1,139 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form,
+.contacts-list {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.no-contacts {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.search-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.search-form button:hover:enabled {
+  background-color: #0056b3;
+}
+
+.contacts-list h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contacts-list ul {
+  list-style-type: disc;
+  padding-left: 0px;
+}
+
+.contacts-list li {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.name-div {
+  margin-bottom: 6px;
+  color: #007bff;
+  font-size: 14px;
+}
+
+.phone-div {
+  color: #007bff;
+  font-size: 14px;
+}
+
+.contacts-list button {
+  background-color: red;
+  padding-block: 7px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.contacts-list button:hover{
+  background-color: rgb(184, 1, 1);
+}

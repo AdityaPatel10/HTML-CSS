@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Book Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+      <h1>Phone Book Contact</h1>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form id="contactForm">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input
+              type="text"
+              id="phone"
+              minlength="10"
+              maxlength="13"
+              required
+            />
+          </div>
+          <div id="error" class="error"></div>
+          <button type="submit">Add Contact</button>
+        </form>
+      </div>
+
+      <!-- Search Form -->
+      <div class="search-form">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by name or phone"
+        />
+        <button id="searchButton" disabled>Search</button>
+      </div>
+      <div id="searchError" class="error"></div>
+
+      <!-- Contacts List -->
+      <div class="contacts-list">
+        <h2>Contacts</h2>
+        <ul id="contacts"></ul>
+        <div id="noContacts" class="no-contacts">
+          No contacts found. Add a contact.
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
